@@ -1,0 +1,1294 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"desc",
+				"desc\tdescribe"
+			],
+			[
+				"targ",
+				"vm_target"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jaisrivastav/Downloads/jsonresume-theme-boilerplate-master/resume.hbs",
+			"settings":
+			{
+				"buffer_size": 471,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/basics.hbs",
+			"settings":
+			{
+				"buffer_size": 1075,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resume.json",
+			"settings":
+			{
+				"buffer_size": 3829,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resume.hbs",
+			"settings":
+			{
+				"buffer_size": 451,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 2305,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/education.hbs",
+			"settings":
+			{
+				"buffer_size": 1098,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/interests.hbs",
+			"settings":
+			{
+				"buffer_size": 557,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/languages.hbs",
+			"settings":
+			{
+				"buffer_size": 453,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/volunteer.hbs",
+			"settings":
+			{
+				"buffer_size": 984,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/awards.hbs",
+			"settings":
+			{
+				"buffer_size": 748,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/work.hbs",
+			"settings":
+			{
+				"buffer_size": 1198,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 22 files for \"{{startDate}}\" (regex)\n\n/Users/jaisrivastav/jsonresume-theme-onepage/partials/education.hbs:\n   12        {{#if startDate}}\n   13        <span class='date'>\n   14:         {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}\n   15        </span>\n   16        {{/if}}\n\n/Users/jaisrivastav/jsonresume-theme-onepage/partials/volunteer.hbs:\n   10          {{#if startDate}}\n   11          <span class='date'>\n   12:           {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}\n   13          </span>\n   14          {{/if}}\n\n/Users/jaisrivastav/jsonresume-theme-onepage/partials/work.hbs:\n   13          {{#if startDate}}\n   14          <span class='date'>\n   15:           {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}\n   16          </span>\n   17          {{/if}}\n\n/Users/jaisrivastav/Downloads/jsonresume-theme-boilerplate-master/partials/education.hbs:\n    7  \t\t\t{{#if startDate}}\n    8  \t\t\t<span class=\"startDate\">\n    9: \t\t\t\t{{startDate}}\n   10  \t\t\t</span>\n   11  \t\t\t{{/if}}\n\n/Users/jaisrivastav/Downloads/jsonresume-theme-boilerplate-master/partials/volunteer.hbs:\n   12  \t\t\t{{#if startDate}}\n   13  \t\t\t<span class=\"startDate\">\n   14: \t\t\t\t{{startDate}}\n   15  \t\t\t</span>\n   16  \t\t\t{{/if}}\n\n/Users/jaisrivastav/Downloads/jsonresume-theme-boilerplate-master/partials/work.hbs:\n   12  \t\t\t{{#if startDate}}\n   13  \t\t\t<span class=\"startDate\">\n   14: \t\t\t\t{{startDate}}\n   15  \t\t\t</span>\n   16  \t\t\t{{/if}}\n\n6 matches across 6 files\n\n\nSearching 12 files for \"{{startDate}}\" (regex)\n\n/Users/jaisrivastav/jsonresume-theme-onepage/partials/education.hbs:\n   12        {{#if startDate}}\n   13        <span class='date'>\n   14:         {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}\n   15        </span>\n   16        {{/if}}\n\n/Users/jaisrivastav/jsonresume-theme-onepage/partials/volunteer.hbs:\n   10          {{#if startDate}}\n   11          <span class='date'>\n   12:           {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}\n   13          </span>\n   14          {{/if}}\n\n/Users/jaisrivastav/jsonresume-theme-onepage/partials/work.hbs:\n   13          {{#if startDate}}\n   14          <span class='date'>\n   15:           {{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}\n   16          </span>\n   17          {{/if}}\n\n3 matches across 3 files\n\n\nSearching 12 files for \"{{endDate}}\" (regex)\n\n/Users/jaisrivastav/jsonresume-theme-onepage/partials/education.hbs:\n   12        {{#if startDate}}\n   13        <span class='date'>\n   14:         {{#if startDate}}{{parseDate startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}\n   15        </span>\n   16        {{/if}}\n\n/Users/jaisrivastav/jsonresume-theme-onepage/partials/volunteer.hbs:\n   10          {{#if startDate}}\n   11          <span class='date'>\n   12:           {{#if startDate}}{{parseDate startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}\n   13          </span>\n   14          {{/if}}\n\n/Users/jaisrivastav/jsonresume-theme-onepage/partials/work.hbs:\n   13          {{#if startDate}}\n   14          <span class='date'>\n   15:           {{#if startDate}}{{parseDate startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}\n   16          </span>\n   17          {{/if}}\n\n3 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 3510,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "partials/publications.hbs",
+			"settings":
+			{
+				"buffer_size": 902,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/skills.hbs",
+			"settings":
+			{
+				"buffer_size": 786,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/summary.hbs",
+			"settings":
+			{
+				"buffer_size": 295,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 2009,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 97.0,
+		"last_filter": "install pack",
+		"selected_items":
+		[
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"emmet match",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"prv open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: describe"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"todo",
+				"TodoReview: Open Files"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"install them",
+				"Colorsublime: Install Theme"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jaisrivastav/jsonresume-theme-onepage",
+		"/Users/jaisrivastav/jsonresume-theme-onepage/partials"
+	],
+	"file_history":
+	[
+		"/Users/jaisrivastav/jsonresume-theme-onepage/partials/line.hbs",
+		"/Users/jaisrivastav/jsonresume-theme-onepage/onepage.sublime-project",
+		"/Users/jaisrivastav/jsonresume-theme-onepage/partials/volunteer.hbs",
+		"/Users/jaisrivastav/tmp/temp.html",
+		"/Users/jaisrivastav/Downloads/jsonresume-theme-boilerplate-master/index.js",
+		"/Users/jaisrivastav/jsonresume-theme-onepage/resume.hbs",
+		"/Users/jaisrivastav/jsonresume-theme-onepage/partials/basics.hbs",
+		"/Users/jaisrivastav/jsonresume-theme-onepage/partials/summary.hbs",
+		"/Users/jaisrivastav/jsonresume-theme-onepage/partials/education.hbs",
+		"/Users/jaisrivastav/jsonresume-theme-onepage/partials/interests.hbs",
+		"/Users/jaisrivastav/jsonresume-theme-onepage/partials/languages.hbs",
+		"/Users/jaisrivastav/jsonresume-theme-onepage/partials/skills.hbs",
+		"/Users/jaisrivastav/jsonresume-theme-onepage/partials/publications",
+		"/Users/jaisrivastav/jsonresume-theme-onepage/partials/awards.hbs",
+		"/Users/jaisrivastav/jsonresume-theme-onepage/partials/work.hbs",
+		"/srv/salt/send-test-report.sls",
+		"/srv/salt/destroy-vm.sls",
+		"/srv/salt/create-vm.sls",
+		"/Users/jaisrivastav/dev/test-report-server/index.js",
+		"/srv/salt/Vagrantfile",
+		"/Users/jaisrivastav/Library/Application Support/Sublime Text 3/Packages/Mocha Snippets/it.sublime-snippet",
+		"/Users/jaisrivastav/Library/Application Support/Sublime Text 3/Packages/Mocha Snippets/describe.sublime-snippet",
+		"/Users/jaisrivastav/dev/server-rest-tests/test/fmsadminapi/clients.test.js",
+		"/Users/jaisrivastav/dev/server-rest-tests/node_modules/isomorphic-fetch/test/api.test.js",
+		"/Users/jaisrivastav/dev/server-rest-tests/test/fmsadminapi/schedules.test.js",
+		"/Users/jaisrivastav/dev/server-rest-tests/mocha.conf.js",
+		"/Users/jaisrivastav/dev/server-rest-tests/test/fmsadminapi/auth.test.js",
+		"/Users/jaisrivastav/dev/server-rest-tests/package.json",
+		"/Users/jaisrivastav/dev/server-rest-tests/node_modules/supertest/test/supertest.js",
+		"/Users/jaisrivastav/dev/server-rest-tests/node_modules/mochawesome-report-generator/lib/main-html.js",
+		"/Users/jaisrivastav/dev/server-rest-tests/node_modules/node-fetch/test/test.js",
+		"/Users/jaisrivastav/dev/server-rest-tests/node_modules/setimmediate/package.json",
+		"/Users/jaisrivastav/dev/server-rest-tests/node_modules/superagent/Readme.md",
+		"/Users/jaisrivastav/dev/server-rest-tests/node_modules/superagent/docs/test.html",
+		"/Users/jaisrivastav/dev/server-rest-tests/node_modules/supertest/Readme.md",
+		"/Users/jaisrivastav/dev/server-rest-tests/node_modules/superagent/lib/node/index.js",
+		"/Users/jaisrivastav/dev/server-rest-tests/authHelper.js",
+		"/Users/jaisrivastav/dev/server-rest-tests/mochawesome-report/serverTestReport.html",
+		"/Users/jaisrivastav/dev/server-rest-tests/mochawesome-report/mochawesome.html",
+		"/Users/jaisrivastav/dev/tests/test.js",
+		"/srv/salt/run-test.sls",
+		"/srv/salt/etc/docker/daemon.json",
+		"/srv/salt/create-vms.sls",
+		"/srv/salt/old/cleanup-master.sls",
+		"/srv/salt/start-docker.sls",
+		"/Users/jaisrivastav/dev/test/port-assigner.py",
+		"/Users/jaisrivastav/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/jaisrivastav/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/jaisrivastav/Library/Application Support/Sublime Text 3/Packages/TodoReview/TodoReview.sublime-settings",
+		"/Users/jaisrivastav/dev/test/run-tests.py"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+			"*.hbs",
+			"*.test.js",
+			"*.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"{{endDate}}",
+			"{{startDate}}",
+			"20..[^-]",
+			"2016",
+			"\"",
+			"date",
+			"cleanup",
+			"{{runId}}",
+			"state.sls",
+			"Sending",
+			"get_minionId",
+			"minion_id",
+			"commands['test']",
+			"RUN",
+			"target",
+			"create_vm",
+			"DOCKER_REPO",
+			"if (err) done(err)",
+			"if (err) done()",
+			"done(err)",
+			"download",
+			"timeout",
+			"keys",
+			"have",
+			"function(err",
+			"keys",
+			"localhost",
+			"http://localhost",
+			"\"",
+			"PortAssigner",
+			"print",
+			"docker",
+			"print",
+			"role",
+			"dockerng",
+			"vm",
+			"5000",
+			"env",
+			"pillar",
+			"START_P",
+			"ipM",
+			"pillar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"{{parseDate endDate}}",
+			"{{parseDate startDate}}",
+			"'",
+			"{{ runId }}",
+			"minionId",
+			"testName",
+			"minion_id",
+			"if (err) return done(err)",
+			"if (err) done(err)",
+			"done()",
+			"SERVER_URL",
+			"'",
+			"docker"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jaisrivastav/Downloads/jsonresume-theme-boilerplate-master/resume.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								461,
+								461
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 8
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "partials/basics.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1054,
+								1054
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resume.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								842,
+								842
+							]
+						],
+						"settings":
+						{
+							"highlight_line": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 81
+							}
+						},
+						"translation.x": 8.0,
+						"translation.y": 276.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resume.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								420,
+								420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 26
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1469,
+								1469
+							]
+						],
+						"settings":
+						{
+							"highlight_line": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 66
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 5.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "partials/education.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1088,
+								1088
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "partials/interests.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								507,
+								507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 7
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "partials/languages.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								439,
+								439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "partials/volunteer.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 984,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								974,
+								974
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "partials/awards.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								738,
+								738
+							]
+						],
+						"settings":
+						{
+							"highlight_line": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "partials/work.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1138,
+								1138
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 8
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3510,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										213,
+										226
+									],
+									[
+										505,
+										518
+									],
+									[
+										796,
+										809
+									],
+									[
+										1085,
+										1098
+									],
+									[
+										1300,
+										1313
+									],
+									[
+										1510,
+										1523
+									],
+									[
+										1801,
+										1814
+									],
+									[
+										2093,
+										2106
+									],
+									[
+										2384,
+										2397
+									],
+									[
+										2801,
+										2812
+									],
+									[
+										3103,
+										3114
+									],
+									[
+										3404,
+										3415
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								2536,
+								2536
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/jaisrivastav/jsonresume-theme-onepage",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 3,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 1194.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "partials/publications.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								840,
+								840
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 6
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "partials/skills.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								776,
+								776
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "partials/summary.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": true,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_insert",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1874,
+								1874
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 13
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 1327.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "onepage.sublime-project",
+	"replace":
+	{
+		"height": 90.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_last_buffer_search": "line",
+		"_vintageous_last_buffer_search_command": "vi_slash",
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

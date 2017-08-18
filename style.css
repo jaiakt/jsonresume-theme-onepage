@@ -23,7 +23,7 @@ a {
 #resume {
   margin: 0 auto;
   max-width: 600px;
-  padding: 80px 100px;
+  padding: 60px 80px;
   background: #fff;
   border: 1px solid #ccc;
   box-shadow: 2px 2px 4px #aaa;
@@ -64,7 +64,7 @@ a {
 .sectionContent ul {
   padding-left: 20px;
   margin-top: 6px;
-  list-style-type: circle;
+  list-style-type: disc;
 }
 
 .sectionContent .title {
@@ -137,7 +137,7 @@ a {
 @media print {
   #resume {
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 700px;
     padding: 0px 0px;
     border: 0px;
     background: #fff;

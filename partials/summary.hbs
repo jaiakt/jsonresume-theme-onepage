@@ -1,0 +1,13 @@
+{{#if resume.basics.summary}}
+<div id='summaryBlock' class="sectionBlock">
+  <div class='sectionName'>
+    <span>SUMMARY</span>
+  </div>
+  <div class='sectionContent'>
+    <span>{{resume.basics.summary}}</span>
+  </div>
+</div>
+{{#unless last}}
+<div class='sectionLine'></div>
+{{/unless}}
+{{/if}}

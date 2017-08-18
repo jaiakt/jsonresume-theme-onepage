@@ -9,8 +9,9 @@
   },
   "license": "MIT",
   "dependencies": {
+    "css": "2.2.x",
     "handlebars": "^2.0.0-alpha.4",
-    "css": "2.2.x"
+    "path": "^0.12.7"
   },
   "bugs": {
     "url": "https://github.com/ainsleychong/jsonresume-theme-onepage/issues"

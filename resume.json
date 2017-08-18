@@ -1,99 +1,125 @@
 {
   "basics": {
-    "name": "Richard Hendricks",
-    "label": "Programmer",
+    "name": "Jai Srivastav",
+    "label": "Software Engineer",
     "picture": "",
-    "email": "richard.hendricks@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "email": "jaiakt@gmail.com",
+    "phone": "(925)-858-0755",
+    "website": "",
+    "summary": "",
     "location": {
-      "city": "San Francisco",
-      "countryCode": "US"
+      "address": "456 Bunker Lane",
+      "postalCode": "94566",
+      "city": "Pleasanton",
+      "countryCode": "",
+      "region": "CA"
     },
-    "profiles": [
-      {
-        "url": "http://twitter.com/neutralthoughts"
-      },
-      {
-        "url": "https://soundcloud.com/dandymusicnl"
-      }
-    ]
+    "profiles": []
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013",
-      "endDate": "2014",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "details": [
-        { "text": "Build an algorithm for artist to detect if their music was violating copy right infringement laws", "comment": "Java" },
-        { "text": "Optimized an algorithm that holds the current world record for Weisman Scores", "comment": "c++" },
-        { "text": "Successfully won Techcrunch Disrupt" }
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012",
-      "endDate": "2013",
-      "summary": "Global movement of free coding clubs for young people.",
+      "company": "Apple",
+      "position": "Software Engineer Intern",
+      "website": "",
+      "startDate": "2017-06",
+      "endDate": "2017-09",
+      "summary": "Built a CI distributed testing architecture for FileMaker Server using Salt, Vagrant, and Docker",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Decreased turnaround time by more than a factor of 10",
+        "Built custom testing suite with javascript tools such as mocha and chai",
+        "Built a centralized test log collection server with Express"
+      ]
+    },
+    {
+      "company": "[24]7",
+      "position": "Software Engineer Intern",
+      "website": "247-inc.com",
+      "startDate": "2016-06",
+      "endDate": "2016-09",
+      "summary": "Developed an automated call tagging system with text mining tools and machine learning algorithms (k-means & hierarchical clusters) using R and Java",
+      "highlights": [
+        "Developed a dashboard for customer interaction tagging using Elasticsearch and Kibana",
+        "Developed tools for tagging call records using Bash and Python scripts"
+      ]
+    },
+    {
+      "company": "UCLA UPE (CS Honor Society)",
+      "position": "Corporate Chair",
+      "website": "upe.seas.ucla.edu",
+      "startDate": "2016-05",
+      "endDate": "",
+      "summary": "Primary point of contact with leading CS companies, including Google, Microsoft, and Amazon",
+      "highlights": [
+        "Organize tech talks with over 100 attendees",
+        "Qualified by being in top 1/3 of CS junior class"
+      ]
+    },
+    {
+      "company": "UCLA TBP (Engineering Honor Society)",
+      "position": "Treasurer",
+      "website": "tbp.seas.ucla.edu",
+      "startDate": "2016-12",
+      "endDate": "",
+      "summary": "Manage income and expenses of over $10,000 for engineering events",
+      "highlights": [
+        "Qualified by being in top 1/8 of engineering junior class"
       ]
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
+      "institution": "University of California, Los Angeles",
+      "area": "Computer Science and Engineering",
       "studyType": "Bachelor",
-      "startDate": "2011",
-      "endDate": "2014",
-      "gpa": "4.0",
+      "startDate": "2015-09",
+      "endDate": "2019-06",
+      "gpa": "3.8",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "CS111 - Operating Systems",
+        "CS180 - Algorithms",
+        "CS131 - Programming Languages",
+        "CS161 - Artificial Intelligence"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
+      "title": "Marvel API Prize",
+      "date": "2016-04",
+      "awarder": "Disney @ LAHacks",
+      "summary": "Won BB-8 robot"
     }
   ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
+  "publications": [],
   "skills": [
     {
-      "name": "Web Development",
-      "details": [
-        { "text": "HTML", "comment": "expert" },
-        { "text": "CSS", "comment": "expert" },
-        { "text": "Javascript", "comment": "expert" }
+      "name": "Programming Languages",
+      "level": "Master",
+      "keywords": [
+        "C++",
+        "Java",
+        "Python",
+        "Javascript"
       ]
     },
     {
-      "name": "Compression",
-      "details": [
-        { "text": "Mpeg", "comment": "competent" },
-        { "text": "MP4", "comment": "competent" },
-        { "text": "GIF", "comment": "novice" }
+      "name": "Development Technologies",
+      "level": "Master",
+      "keywords": [
+        "Bash",
+        "Git",
+        "Docker",
+        "Vagrant",
+        "Saltstack"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "Intermediate",
+      "keywords": [
+        "iOS",
+        "Android"
       ]
     }
   ],
@@ -101,15 +127,21 @@
     {
       "language": "English",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Conversational"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Conversational"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
+      "name": "Distributed Computing",
+      "keywords": []
     }
-  ]
+  ],
+  "references": []
 }

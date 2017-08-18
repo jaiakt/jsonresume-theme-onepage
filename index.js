@@ -1,18 +1,22 @@
-var fs = require("fs");
-var Handlebars = require("handlebars");
+var fs = require('fs');
+var path = require('path');
+var Handlebars = require('handlebars');
 
-COURSES_COLUMNS = 3;
+COURSES_COLUMNS = 2;
 
 PREPEND_SUMMARY_CATEGORIES = [
-  "work",
-  "volunteer",
-  "awards",
-  "publications"
+  'work',
+  'volunteer',
+  'awards',
+  'publications'
 ];
 
 function validateArray(arr) {
   return arr !== undefined && arr !== null && arr instanceof Array && arr.length > 0;
 }
+
+MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", 
+               "Oct", "Nov", "Dec"];
 
 function render(resume) {
   // Split courses into 3 columns
@@ -50,8 +54,29 @@ function render(resume) {
     }
   });
 
-	var css = fs.readFileSync(__dirname + "/style.css", "utf-8");
-	var tpl = fs.readFileSync(__dirname + "/resume.hbs", "utf-8");
+  function parseDate(date) {
+    var d = new Date(date)
+    return new Handlebars.SafeString(MONTH_NAMES[d.getMonth()] + ' ' + d.getFullYear());
+  }
+  Handlebars.registerHelper('parseDate', parseDate);
+
+	var css = fs.readFileSync(__dirname + '/style.css', 'utf-8');
+	var tpl = fs.readFileSync(__dirname + '/resume.hbs', 'utf-8');
+  var partialsDir = path.join(__dirname, 'partials');
+  var filenames = fs.readdirSync(partialsDir);
+
+  filenames.forEach(function(filename) {
+    var matches = /^([^.]+).hbs$/.exec(filename);
+    if (!matches) {
+      return;
+    }
+    var name = matches[1];
+    var filepath = path.join(partialsDir, filename)
+    var template = fs.readFileSync(filepath, 'utf8');
+
+    Handlebars.registerPartial(name, template);
+  });
+
 	return Handlebars.compile(tpl)({
 		css: css,
 		resume: resume
