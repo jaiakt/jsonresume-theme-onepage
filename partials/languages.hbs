@@ -12,6 +12,8 @@
     {{#unless @last}}<span>,</span>{{/unless}}
     {{/each}}
   </div>
-  <div class='sectionLine'></div>
 </div>
+{{#unless noline}}
+<div class='sectionLine'></div>
+{{/unless}}
 {{/if}}

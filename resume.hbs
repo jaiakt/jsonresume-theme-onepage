@@ -1,30 +1,30 @@
 <!doctype html>
 <html>
-	<head>
+  <head>
 
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
 
-	<title>{{resume.basics.name}}</title>
+  <title>{{resume.basics.name}}</title>
 
-	<style>
-	{{{css}}}
-	</style>
+  <style>
+  {{{css}}}
+  </style>
 
-	</head>
-	<body>
+  </head>
+  <body>
 
-	<div id='resume'>
+  <div id='resume'>
     {{> basics}}
-    {{> summary}}
+    {{!-- {{> summary}} --}}
     {{> education}}
-  	{{> work}}
-    {{> publications}}
-    {{> awards}}
+    {{> work}}
+    {{!-- {{> publications}} --}}
+    {{> interests}}
     {{> skills}}
     {{> languages}}
-    {{> interests last=true}}
+    {{> awards noline=true}}
   </div>
 
-	</body>
+  </body>
 </html>

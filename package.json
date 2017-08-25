@@ -11,7 +11,8 @@
   "dependencies": {
     "css": "2.2.x",
     "handlebars": "^2.0.0-alpha.4",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "resume-cli": "^0.4.19"
   },
   "bugs": {
     "url": "https://github.com/ainsleychong/jsonresume-theme-onepage/issues"

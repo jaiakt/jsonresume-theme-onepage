@@ -25,15 +25,14 @@
       "endDate": "2017-09",
       "summary": "Built a CI distributed testing architecture for FileMaker Server using Salt, Vagrant, and Docker",
       "highlights": [
-        "Decreased turnaround time by more than a factor of 10",
-        "Built custom testing suite with javascript tools such as mocha and chai",
+        "Built custom testing suite with javascript testing frameworks such as Mocha and Chai",
         "Built a centralized test log collection server with Express"
       ]
     },
     {
       "company": "[24]7",
       "position": "Software Engineer Intern",
-      "website": "247-inc.com",
+      "website": "",
       "startDate": "2016-06",
       "endDate": "2016-09",
       "summary": "Developed an automated call tagging system with text mining tools and machine learning algorithms (k-means & hierarchical clusters) using R and Java",
@@ -45,7 +44,7 @@
     {
       "company": "UCLA UPE (CS Honor Society)",
       "position": "Corporate Chair",
-      "website": "upe.seas.ucla.edu",
+      "website": "",
       "startDate": "2016-05",
       "endDate": "",
       "summary": "Primary point of contact with leading CS companies, including Google, Microsoft, and Amazon",
@@ -57,7 +56,7 @@
     {
       "company": "UCLA TBP (Engineering Honor Society)",
       "position": "Treasurer",
-      "website": "tbp.seas.ucla.edu",
+      "website": "",
       "startDate": "2016-12",
       "endDate": "",
       "summary": "Manage income and expenses of over $10,000 for engineering events",

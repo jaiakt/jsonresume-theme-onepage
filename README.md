@@ -1,4 +1,10 @@
-# jsonresume-theme-onepage
+# Jai's Resume
+
+Adapted from ainsleyc/jsonresume-theme-onepage
+
+Readme for that project is below
+
+# jsonresume-theme-onepage.git
 
 A compact theme for JSON Resume, designed for printing. 
 

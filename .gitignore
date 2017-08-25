@@ -32,3 +32,6 @@ index.html
 
 # Temp files
 *.swp
+
+*.sublime-workspace
+
