@@ -23,10 +23,10 @@
       "website": "",
       "startDate": "2017-06",
       "endDate": "2017-09",
-      "summary": "Built a CI distributed testing architecture for FileMaker Server using Salt, Vagrant, and Docker",
+      "summary": "Designed and developed a distributed testing system for continuous integration for FileMaker Server",
       "highlights": [
-        "Built custom testing suite with javascript testing frameworks such as Mocha and Chai",
-        "Built a centralized test log collection server with Express"
+        "Developed custom testing suite with Javascript testing frameworks",
+        "Developed a centralized test log collection server"
       ]
     },
     {
@@ -70,7 +70,7 @@
     {
       "institution": "University of California, Los Angeles",
       "area": "Computer Science and Engineering",
-      "studyType": "Bachelor",
+      "studyType": "BS",
       "startDate": "2015-09",
       "endDate": "2019-06",
       "gpa": "3.8",

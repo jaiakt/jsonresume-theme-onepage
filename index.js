@@ -15,7 +15,7 @@ function validateArray(arr) {
   return arr !== undefined && arr !== null && arr instanceof Array && arr.length > 0;
 }
 
-MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", 
+MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", 
                "Oct", "Nov", "Dec"];
 
 function render(resume) {
@@ -56,7 +56,7 @@ function render(resume) {
 
   function parseDate(date) {
     var d = new Date(date)
-    return new Handlebars.SafeString(MONTH_NAMES[d.getMonth()] + ' ' + d.getFullYear());
+    return new Handlebars.SafeString(MONTH_NAMES[d.getUTCMonth()] + ' ' + d.getFullYear());
   }
   Handlebars.registerHelper('parseDate', parseDate);
 
