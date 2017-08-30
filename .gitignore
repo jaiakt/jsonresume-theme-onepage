@@ -34,4 +34,4 @@ index.html
 *.swp
 
 *.sublime-workspace
-
+.DS_Store
