@@ -1,0 +1,1 @@
+resume serve -t onepage
